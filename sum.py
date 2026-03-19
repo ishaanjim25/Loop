@@ -1,7 +1,9 @@
-n=int(input("Enter how many numbers sum you want: "))
+n=int(input("Enter a value: "))
 
 sum=0
-for i in range(1,n+1): 
-    sum=sum+i
-    print("Sum=",sum)
-    
+i=1
+while i<=n:
+    sum=i+sum
+    i=i+1
+
+print("Sum=",sum)
